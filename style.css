@@ -1,3 +1,4 @@
+/* don't display header if width is too small */
 @media (max-width: 1000px) {
     header {
         display: none;
@@ -56,6 +57,7 @@ li {
     position: static;
 }
 
+/* everything list item except the first will be bold */
 li + li {
     font-weight: bold;
 }
